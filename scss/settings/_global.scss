@@ -4,11 +4,177 @@
 }
 
 body {
-    font-weight: 200;
-    letter-spacing: 1px;
-    font-family: 'Montserrat', sans-serif;
-    background-color: $blue;
+    background: white;
+    font-family: 'Lato', sans-serif;
+}
+
+.main__container{
+  background: #CDEE4A;
+}
+
+.hamburguer__menu{
+  float: right;
+    width: 7%;
+    margin-right: 40px;
+    margin-top: -12%;
+
+    @media (min-width: 769px){
+      width: 4%;
+      margin-top: -1%;
+    }
+}
+
+.logo{
+    position: relative;
+    font-size: 4rem;
+    top: 63px;
+    left: 18px;
+    text-transform: uppercase;
+
+    @media (min-width: 768px){
+     left: 42px;
+    }
+}
+
+
+.introduction{
+    margin-top: 12%;
+    font-size: 4rem;
+    margin-left: 19%;
+    color: white;
+    text-transform: uppercase;
 }
 
 
 
+.aboutme__title{
+  margin-left: 19%;
+  margin-top: 37px;
+  font-size: 2rem;
+  font-family: 'PT Mono', monospace; 
+}
+
+hr{ 
+  border: none;
+  border-left: 5px solid black;
+  height: 65vh;
+  margin-left: 23%;
+}
+
+.close__decorative{
+  width: 6%;
+  margin-left: 20%;
+  margin-top: 16px;
+}
+
+.aboutme__text{
+  font-size: 28px;
+  text-align: start;
+  margin-left: 29%;
+  margin-top: -33px;
+  line-height: 46px;
+  font-family: 'PT Mono', monospace;
+}
+
+.info__container{
+  background: white;
+}
+
+.socialmedia__container{
+  margin-top: 10%;
+  height: 37vh;
+  border: 28px solid #CDEE4A;
+}
+
+.socialmedia__title{
+  text-align: center;
+  font-size: 3rem;
+  text-transform: uppercase;
+}
+
+.socialmedia__image{
+  width: 3.4em;
+  height: auto;
+}
+
+a img:hover {
+  fill: black;
+}
+
+.socialmedia__links{
+  display: flex;
+  align-items: baseline;
+  justify-content: space-evenly;
+  margin-top: 31px;
+  margin-left: 44px;
+}
+
+ul{
+  list-style: none;
+  display: inherit;
+}
+
+ul.socialmedia__list li a{
+  font-family: 'PT Mono', monospace;
+  text-align: left;
+  line-height: 2;
+  text-decoration: none;
+  color: black;
+
+
+}
+
+ul.socialmedia__list li a:hover{
+  color: #CDEE4A;
+}
+
+.horizontal{
+  height: 7px;
+  width: 11%;
+  background-color: black;
+  margin-left: 41px;
+  position: relative;
+  top: 37%;
+
+  @media (min-width: 768px){
+    top: 75%;
+    margin-left: 78px;
+  }
+}
+
+.second__horizontal{
+  height: 7px;
+  width: 96%;
+  background-color: black;
+  margin-left: 2%;
+}
+
+.menu__container{
+  height: 15vh;
+}
+
+.menu__title{
+  position: relative;
+  font-size: 4rem;
+  top: 63px;
+  left: 42px;
+  text-transform: uppercase;
+}
+
+.menu__list{
+  display: flex;
+  justify-content: space-evenly;
+  font-size: 2em;
+  position: relative;
+  bottom: -40%;
+  font-family: 'PT Mono', monospace;
+}
+
+.menu__item{
+  text-decoration: none;
+  color: black;
+}
+.menu__item:hover{
+  color: #CDEE4A;
+}
+ 
