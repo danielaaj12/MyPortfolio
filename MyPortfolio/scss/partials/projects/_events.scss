@@ -1,0 +1,51 @@
+.introduction__play {
+    margin-top: 17%;
+    font-size: 3rem;
+    margin-left: 19%;
+    color: white;
+    text-transform: uppercase;
+
+    @media (min-width: 768px){
+      margin-top: 6%;
+    }
+}
+
+.logo__play{
+    position: relative;
+    font-size: 4rem;
+    top: 63px;
+    left: 18px;
+    text-transform: uppercase;
+
+    @media (min-width: 768px){
+     left: 11%;
+    }
+}
+
+.camera__image{
+  margin-left: 54%;
+  margin-top: 29px;
+  width: 11%;
+}
+
+.logo__play{
+  position: relative;
+  font-size: 4rem;
+  top: 63px;
+  left: 18px;
+  text-transform: uppercase;
+
+  @media (min-width: 768px){
+   left: 42px;
+  }
+}
+
+.logo__play:hover{
+  color: white;
+  transition: 1s;
+}
+
+.introduction__play:hover{
+  color: black;
+  transition: 1s;
+}
