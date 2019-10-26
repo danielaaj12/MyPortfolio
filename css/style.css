@@ -1,6 +1,7 @@
 * {
   margin: 0;
-  padding: 0; }
+  padding: 0;
+  box-sizing: border-box; }
 
 body {
   background: white;
@@ -30,52 +31,74 @@ body {
       left: 42px; } }
 
 .introduction {
-  margin-top: 12%;
-  font-size: 4rem;
+  margin-top: 22%;
+  font-size: 2rem;
   margin-left: 19%;
   color: white;
   text-transform: uppercase; }
+  @media (min-width: 768px) {
+    .introduction {
+      margin-top: 15%;
+      font-size: 3rem; } }
 
 .aboutme__title {
-  margin-left: 19%;
-  margin-top: 37px;
+  margin-left: -61%;
+  margin-top: 85%;
   font-size: 2rem;
-  font-family: 'PT Mono', monospace; }
+  font-family: 'PT Mono', monospace;
+  transform: rotate(-270deg); }
 
 hr {
   border: none;
   border-left: 5px solid black;
-  height: 65vh;
-  margin-left: 23%; }
+  height: 26vh;
+  margin-left: 18%;
+  margin-top: -40%; }
+  @media (min-width: 768px) {
+    hr {
+      height: 46vh;
+      margin-left: 19%;
+      margin-top: -60%; } }
 
 .close__decorative {
-  width: 6%;
-  margin-left: 20%;
+  width: 12%;
+  margin-left: 13%;
   margin-top: 16px; }
 
 .aboutme__text {
-  font-size: 28px;
+  font-size: 18px;
   text-align: start;
   margin-left: 29%;
   margin-top: -33px;
   line-height: 46px;
   font-family: 'PT Mono', monospace; }
+  @media (min-width: 768px) {
+    .aboutme__text {
+      font-size: 23px; } }
 
 .info__container {
   background: white; }
 
 .socialmedia__container {
-  margin-top: 10%;
+  margin-top: 12%;
   height: 37vh;
   border: 28px solid #CDEE4A; }
+  @media (min-width: 768px) {
+    .socialmedia__container {
+      margin-top: 7%; } }
 
 .socialmedia__title {
   text-align: center;
-  font-size: 3rem;
-  text-transform: uppercase; }
+  font-size: 2rem;
+  text-transform: uppercase;
+  margin-top: 2%; }
+  @media (min-width: 768px) {
+    .socialmedia__title {
+      font-size: 3rem;
+      margin-top: 3%; } }
 
 .socialmedia__image {
-  width: 3.4em;
+  width: 2.4em;
   height: auto; }
 
 a img:hover {
@@ -85,8 +108,8 @@ a img:hover {
   display: flex;
   align-items: baseline;
   justify-content: space-evenly;
-  margin-top: 31px;
-  margin-left: 44px; }
+  margin-top: 19px;
+  margin-left: 29px; }
 
 ul {
   list-style: none;
@@ -108,7 +131,7 @@ ul.socialmedia__list li a:hover {
   background-color: black;
   margin-left: 41px;
   position: relative;
-  top: 37%; }
+  top: 97%; }
   @media (min-width: 768px) {
     .horizontal {
       top: 75%;
@@ -118,7 +141,8 @@ ul.socialmedia__list li a:hover {
   height: 7px;
   width: 96%;
   background-color: black;
-  margin-left: 2%; }
+  margin-left: 2%;
+  margin-top: 1%; }
 
 .menu__container {
   height: 15vh; }
@@ -144,6 +168,9 @@ ul.socialmedia__list li a:hover {
 
 .menu__item:hover {
   color: #CDEE4A; }
+
+span {
+  font-size: 12px; }
 
 .hr__work {
   border: none;
