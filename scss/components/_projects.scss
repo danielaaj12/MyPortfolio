@@ -1,9 +1,14 @@
 .image{
-    width: 83%;
+    width: 59%;
+
+    @media (min-width: 1024px){
+        width: 36%;
+    }
 }
 
 .image__project{
     display: flex;
     justify-content: center;
     margin-top: 31px;
+    cursor: pointer;
 }
