@@ -46,11 +46,8 @@
   font-size: 2rem;
   font-family: 'PT Mono', monospace;
   transform: rotate(-270deg);
-
-  @media (min-width: 768px){
-    
-  }
 }
+
 
 hr{ 
   border: none;
@@ -72,8 +69,6 @@ hr{
   @media (min-width: 1024px){
     margin-top: -66%;
   }
-
-  
 }
 
 .close__decorative{
@@ -262,4 +257,8 @@ span{
     top: 21px;
     left: -53%;
   }
+}
+
+.aboutme__text--container:hover{
+  background: $green;
 }

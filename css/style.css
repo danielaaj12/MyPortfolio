@@ -191,8 +191,12 @@ span {
     top: 21px;
     left: -53%; } }
 
+.aboutme__text--container:hover {
+  background: #CDEE4A; }
+
 .image {
-  width: 59%; }
+  width: 55%;
+  height: auto; }
   @media (min-width: 1024px) {
     .image {
       width: 36%; } }
@@ -277,7 +281,7 @@ span {
 .hr__work {
   border: none;
   border-left: 5px solid #000;
-  height: 71vh;
+  height: 46vh;
   margin-left: 6%;
   margin-top: -50%; }
   @media (min-width: 500px) {
@@ -396,7 +400,7 @@ span {
 
 .works__container {
   background: #CDEE4A;
-  height: 83vh; }
+  height: 58vh; }
   @media (min-width: 500px) {
     .works__container {
       height: 78vh; } }
