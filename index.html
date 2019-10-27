@@ -20,17 +20,17 @@
     <header class="menu__container">
       <ul class="menu__list">
         <li>
-          <a class="menu__item" href="">work</a>
+          <a class="menu__item" href="#works">work</a>
         </li>
         <li>
-          <a class="menu__item" href="">info</a>
+          <a class="menu__item" href="#info">info</a>
         </li>
         <li>
-          <a class="menu__item" href="">play</a>
+          <a class="menu__item" href="#play">play</a>
         </li>
       </ul>
     </header>
-    <div class="introduction__container">
+    <div id="info" class="introduction__container">
       <h1 class="logo">Daniela Arias</h1>
       <h2 class="introduction">Web Designer & <br>
         Front-End Developer
@@ -38,18 +38,18 @@
       <h3 class="aboutme__title">about me</h3>
       <hr>
       <div class="aboutme__text--container">
-          <img class="close__decorative" src="./img/close-button.png" alt="">
-          <p class="aboutme__text">
-            I am a web designer and advertising designer.
-            <br>
-            I like the creativity
-            and create new things
-            <br>
-            I love art and music
-          </p>
+        <img class="close__decorative" src="./img/close-button.png" alt="">
+        <p class="aboutme__text">
+          I am a web designer and advertising designer.
+          <br>
+          I like the creativity
+          and create new things
+          <br>
+          I love art and music
+        </p>
 
       </div>
-      
+
       <div class="socialmedia__container">
 
         <h2 class="socialmedia__title">You can follow me in</h2>
@@ -84,7 +84,7 @@
       </div>
     </div>
 
-    <div class="works__container">
+    <div id="works" class="works__container">
       <h2 class="logo__work">There are</h2>
       <h2 class="introduction__play">Some of my works<br>
         of web develop and ux/ui design
@@ -104,23 +104,18 @@
       </p>
     </div>
     <h3 class="work__title">Some <span class="work__span">works</span></h3>
-    <div class="projects__container">
-      <div class="cuda__project">
-        <img class="project__image" src="./img/cuda.jpg" alt="">
+
+      <div class="image__project">
+        <img class="image" src="/img/soundlight.jpg" alt="">
       </div>
-      <div class="events__project">
-        <img class="project__image" src="./img/events.jpg" alt="">
+      <div class="image__project">
+        <img class="image" src="/img/cegea.jpg" alt="">
       </div>
-      <div class="folio__project">
-        <img class="project__image" src="./img/folio.jpg" alt="">
-      </div>
-      <div class="tinyone__project">
-        <img class="project__image" src="./img/tinyone.jpg" alt="">
-      </div>
-    </div>
-    <div class="play__container">
+    
+    <div id="play" class="play__container">
       <h1 class="logo__play">Some of my</h1>
-      <h2 class="introduction__play">Photography work</h2>
+      <hr class="play__horizontal">
+      <h2 class="introduction__play introduction__play--center">Photography work</h2>
       <img class="camera__image" src="./img/photo-camera.svg" alt="">
     </div>
     <hr class="second__horizontal">
@@ -139,7 +134,6 @@
     </footer>
   </div>
 
-  <script src="js/script.js"></script>
 </body>
 
 </html>

@@ -1,9 +1,9 @@
 @import 'settings/variables';
 @import 'settings/global';
-@import 'partials/sections/header';
-@import 'partials/sections/content';
-@import 'partials/projects/cuda';
-@import 'partials/projects/events';
+@import 'components/introduction';
+@import 'components/projects';
+@import 'components/play';
+@import 'components/works';
 
 
 
