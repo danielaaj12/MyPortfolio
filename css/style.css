@@ -204,11 +204,18 @@ span {
     .image {
       width: 36%; } }
 
+.image:hover {
+  background: #CDEE4A; }
+
 .image__project {
   display: flex;
   justify-content: center;
   margin-top: 31px;
   cursor: pointer; }
+
+.image__link {
+  display: flex;
+  justify-content: center; }
 
 .introduction__play {
   margin-top: 9%;
@@ -280,6 +287,12 @@ span {
 
 .introduction__play--center {
   text-align: center; }
+
+.photo__image {
+  max-width: 49%; }
+
+.photos__section {
+  margin-top: 33px; }
 
 .hr__work {
   border: none;
